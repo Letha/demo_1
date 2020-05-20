@@ -1,0 +1,27 @@
+.button_theme_1 {
+    cursor: pointer;
+    border-top: 1px solid #2a4642;
+    border-bottom: 1px solid #2a4642;
+    border-top-right-radius: 100px 10px;
+    border-bottom-left-radius: 100px 10px;
+}
+.button_theme_1:hover {
+    transition: border-bottom-color 600ms, border-top-color 600ms;
+    border-top-color: #509187;
+    border-bottom-color: #509187;
+}
+
+.button_size_global-1 {
+    padding: 10px 0;
+    min-width: 300px;
+}
+.button_size_global-2 {
+    padding: 10px 20px;
+}
+@media (min-width: 600px) {
+    .button_theme_1:focus {
+        transition: border-bottom-color 600ms, border-top-color 600ms;
+        border-top-color: #509187;
+        border-bottom-color: #509187;
+    }
+}

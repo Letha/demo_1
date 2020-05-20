@@ -1,0 +1,31 @@
+.content_page_index {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.content_page_index .content__form_id_1 {
+    margin: auto 0;
+    padding: 40px 0 70px 100px;
+    grid-auto-flow: row;
+}
+.content_page_index .content__form_id_1 .content__form-button_id_1 {
+    grid-area: 5 / 1 / 6 / 3;
+}
+.content_page_index .content__form_id_1 .content__form-image_id_1 {
+    grid-area: 2 / 2 / 5 /3;
+    height: 400px;
+    background: no-repeat center / auto 100%;
+}
+@media (max-width: 1023.9px) {
+    .content_page_index .content__form_id_1 {
+        margin: auto 0;
+        padding-left: 0;
+    }
+    .content_page_index .content__form_id_1 .content__form-field {
+        margin-left: 24px !important;
+    }
+    .content_page_index .content__form_id_1 .content__form-button_id_1,
+    .content_page_index .content__form_id_1 .content__form-image_id_1 {
+        grid-area: auto;
+    }
+}

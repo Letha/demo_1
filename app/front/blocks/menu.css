@@ -1,0 +1,28 @@
+.menu_theme_1 {
+    display: flex;
+}
+.menu_theme_1 .menu__item {
+    padding: 10px;
+}
+.menu_theme_1.menu_interactive .menu__item {
+    cursor: pointer;
+}
+.menu_theme_1.menu_interactive .menu__item:hover {
+    transition: background-color 600ms;
+    background: #2a4642;
+}
+.menu_theme_1 .menu__item[data-state='active'] {
+    cursor: auto;
+    border-top: 1px dashed #91ffef;
+    border-bottom: 1px dashed #91ffef;
+}
+.menu_theme_1 .menu__item[data-state='active']:hover {
+    transition: none !important;
+    background: none !important;
+}
+@media (min-width: 600px) {
+    .menu_theme_1.menu_interactive .menu__item:focus {
+        transition: background-color 600ms;
+        background: #2a4642;
+    }
+}

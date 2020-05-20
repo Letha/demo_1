@@ -1,0 +1,107 @@
+.header_theme_1 {
+    padding: 0 0 0 10px;
+    display: flex;
+    border-top: 1px solid #2a4642;
+    border-bottom: 1px solid #2a4642;
+}
+
+.header_theme_1 .header__figure_id_1 {
+    margin: 10px 10px 10px 0;
+}
+.header_theme_1 .header__menu .header__menu-item {
+    margin: -1px 0;
+}
+.header_theme_1 .header__menu_id_1 {
+    margin-left: auto;
+}
+
+.header_theme_1 .header__modal-area_type_1 {
+    display: none;
+}
+.header_theme_1 .header__modal-area_type_1[data-state='active'] {
+    overflow: auto;
+    position: fixed;
+    top: 62px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: #001719;
+}
+
+.header_theme_1 .header__form_id_1 {
+    margin: auto 0;
+    padding: 40px 0 70px 100px;
+}
+.header_theme_1 .header__form_id_1 .header__file-input {
+    display: none;
+}
+.header_theme_1 .header__form_id_1 .header__form-label:nth-of-type(2) {
+    margin-left: 15px;
+}
+.header_theme_1 .header__form_id_1 .header__form-label:nth-of-type(3) {
+    margin-left: 30px;
+}
+.header_theme_1 .header__form_id_1 .header__form-label_id_1 {
+    margin-left: 15px;
+    grid-area: 5 / 1 / 6 / 3;
+}
+.header_theme_1 .header__form_id_1 .header__form-field_id_1 {
+    grid-area: 6 / 1 / 7 / 3;
+}
+.header_theme_1 .header__form_id_1 .header__form-button_id_1 {
+    grid-area: 7 / 1 / 8 / 3;
+}
+
+.header_theme_1 .header__form_id_2 {
+    margin: auto 0;
+    padding: 40px 0 70px 100px;
+    grid-auto-flow: row;
+}
+
+@media (max-width: 1023.9px) {
+    .header_theme_1 {
+        font-size: 14px;
+    }
+
+    .header_theme_1 .header__form_id_1 {
+        padding-left: 0;
+    }
+    .header_theme_1 .header__form_id_1 .header__form-label,
+    .header_theme_1 .header__form_id_1 .header__form-field,
+    .header_theme_1 .header__form_id_2 .header__form-label {
+        margin-left: 24px !important;
+    }
+    .header_theme_1 .header__form_id_1 .header__form-label_id_1,
+    .header_theme_1 .header__form_id_1 .header__form-field_id_1,
+    .header_theme_1 .header__form_id_1 .header__form-button_id_1 {
+        grid-area: auto;
+    }
+
+    .header_theme_1 .header__form_id_2 {
+        padding-left: 0;   
+    }
+}
+
+@media (max-width: 639.9px) {
+    .header_theme_1 {
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_theme_1 .header__figure_id_1 {
+        margin: 0 0 20px 0;
+    }
+    .header_theme_1 .header__menu_id_1 {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .header_theme_1 .header__menu_id_1 .header__menu-item {
+        margin: 0;
+    }
+
+    .header_theme_1 .header__modal-area_type_1[data-state='active'] {
+        top: 202px;
+    }
+}

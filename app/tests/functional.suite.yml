@@ -1,0 +1,7 @@
+actor: FunctionalTester
+modules:
+    enabled:
+        - Asserts
+        - PhpBrowser:
+            url: 'http://localhost'
+        - \Helper\Functional

@@ -1,0 +1,7 @@
+* text=auto
+
+# Graphics
+*.svg binary
+
+# Fonts
+*.ttf binary
